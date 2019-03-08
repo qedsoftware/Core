@@ -112,7 +112,7 @@ Global Defines
 
 {--$DEFINE DEVICE_DEBUG}          {Enable debug output/counters for device management (Default: Off)}
 {--$DEFINE DMA_DEBUG}             {Enable debug output/counters for DMA devices/hosts (Default: Off)}
-{--$DEFINE USB_DEBUG}             {Enable debug output/counters for USB devices/drivers/hosts (Default: Off) (Do not enable when network or file logging is active)}
+{$DEFINE USB_DEBUG}             {Enable debug output/counters for USB devices/drivers/hosts (Default: Off) (Do not enable when network or file logging is active)}
 {--$DEFINE MMC_DEBUG}             {Enable debug output/counters for MMC/SD devices/hosts (Default: Off)}
 {--$DEFINE SPI_DEBUG}             {Enable debug output/counters for SPI devices (Default: Off)}
 {--$DEFINE I2C_DEBUG}             {Enable debug output/counters for I2C devices (Default: Off)}
